@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+body {
+  text-align: center;
+  background: #03071e;
+  margin-top: 86px;
+}
+
+#link-container {
+  padding: 15px;
+}
+
+#username {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.2em;
+}
+
+#quick-bio {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+#quote {
+  font-family: "Roboto", sans-serif;
+}
+
+#username,
+#quick-bio,
+#quote {
+  color: white;
+}
+
+#profile {
+  border-radius: 100%;
+  width: 180px;
+}
+
+#links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#links > li {
+  margin: 3em 0 3em 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.socials-icon {
+  width: 20px;
+  vertical-align: middle;
+}
+
+#links > li > a {
+  color: white;
+  border-radius: 5px;
+  padding: 12px;
+  text-decoration: none;
+  max-width: 360px;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+#links > li:nth-child(1) > a {
+  background: #dc2f02;
+}
+
+#links > li:nth-child(2) > a {
+  background: #d00000;
+}
+
+#links > li:nth-child(3) > a {
+  background: #9d0208;
+}
+
+#links > li:nth-child(4) > a {
+  background: #6a040f;
+}
+
+#links > li > a:hover,
+#links > li > a:focus {
+  background: none;
+  border-style: solid;
+  border-width: 0.3px;
+  border-color: white;
+}
+
+.li-text {
+  vertical-align: middle;
+}
